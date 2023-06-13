@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AtividadeCalculadora.Properties {
+namespace Teste01.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
