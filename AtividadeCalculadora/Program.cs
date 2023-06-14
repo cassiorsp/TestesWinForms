@@ -16,7 +16,7 @@ namespace AtividadeCalculadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Gabrielcastro());
+            Application.Run(new Nathan());
         }
     }
 }

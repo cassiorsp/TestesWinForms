@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Teste01.Properties {
+namespace AtividadeCalculadora.Properties {
     using System;
     
     

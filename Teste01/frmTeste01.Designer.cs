@@ -1,5 +1,5 @@
 ﻿
-namespace Teste01
+namespace AtividadeCalculadora
 {
     partial class frmTeste01
     {
@@ -222,6 +222,7 @@ namespace Teste01
             this.Name = "frmTeste01";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Teste 01";
+            this.Load += new System.EventHandler(this.frmTeste01_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

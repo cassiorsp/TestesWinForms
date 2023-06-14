@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Teste01
+namespace AtividadeCalculadora
 {
     public partial class frmTeste01 : Form
     {
+        //global
+        string resp = "";
         public frmTeste01()
         {
             InitializeComponent();
@@ -33,6 +35,11 @@ namespace Teste01
                     DateTime.Now + " Calculo: " + pValor + "+" +
                     sValor + "= " + rValor;
 
+                //resp += "\n Hora do Resultado: " +
+                //    DateTime.Now + " Calculo: " + pValor + "+" +
+                //    sValor + "= " + rValor;
+
+                
                 //aumenta o tamanho do form LARGURA - ALTURA
                 this.ClientSize = new System.Drawing.Size(800, 400);
                 //MODIFICAR TAMANHO DO BUTTON
@@ -84,6 +91,11 @@ namespace Teste01
             {
                 btnMultiplicacao.Visible = false;
             }
+        }
+
+        private void frmTeste01_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
