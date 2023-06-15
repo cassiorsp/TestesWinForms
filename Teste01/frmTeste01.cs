@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AtividadeCalculadora
+namespace Teste01
 {
     public partial class frmTeste01 : Form
     {
@@ -84,11 +84,6 @@ namespace AtividadeCalculadora
             {
                 btnMultiplicacao.Visible = false;
             }
-        }
-
-        private void frmTeste01_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
