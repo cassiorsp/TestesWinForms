@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="carlosAkira.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carlosAkira.Designer.cs">
+      <DependentUpon>carlosAkira.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vinicius.cs">
@@ -60,6 +66,9 @@
     <Compile Include="Vinicius.Designer.cs">
       <DependentUpon>Vinicius.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="carlosAkira.resx">
+      <DependentUpon>carlosAkira.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
