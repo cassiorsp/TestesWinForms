@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using MetroFramework;
 using MetroFramework.Controls;
 
-namespace AtividadeCalculadora
+namespace Teste01
 {
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
