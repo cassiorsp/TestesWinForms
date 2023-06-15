@@ -21,6 +21,11 @@ namespace AtividadeCalculadora
             InitializeComponent();
         }
 
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             txtResultado.Text = "9";

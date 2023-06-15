@@ -11,16 +11,12 @@ using System.Windows.Forms;
 
 namespace AtividadeCalculadora
 {
-    public partial class Nathan : Form
+    public partial class Form2 : Form
     {
         decimal valor1 = 0, valor2 = 0;
         string operacao = "";
 
-        //global
-        string resp = "";
-
-
-        public Nathan()
+        public Form2()
         {
             InitializeComponent();
         }
@@ -32,103 +28,81 @@ namespace AtividadeCalculadora
 
         private void button3_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "9";
+            txtResultado.Text = "9";
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "1";
+            txtResultado.Text = "1";
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "2";
+            txtResultado.Text = "2";
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "3";
+            txtResultado.Text = "3";
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "4";
+            txtResultado.Text = "4";
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "5";
+            txtResultado.Text = "5";
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "6";
+            txtResultado.Text = "6";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "7";
+            txtResultado.Text = "7";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + "8";
+            txtResultado.Text = "8";
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = txtResultado.Text + ".";
+            txtResultado.Text = ".";
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (txtResultado.Text != "")
-            {
-                valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
-                txtResultado.Text = "";
-                operacao = "SUB";
-                lblOperacao.Text = "-";
-                                
-            }
-            else
-            {
-                MessageBox.Show("Informe um valor por gentileza");
-            }
+            valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
+            txtResultado.Text = "";
+            operacao = "SUB";
+            lblOperacao.Text = "-";
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            if (txtResultado.Text != "")
-            {
-                valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
-                txtResultado.Text = "";
-                operacao = "MULT";
-                lblOperacao.Text = "X";
-            }
-            else
-            {
-                MessageBox.Show("Informe um valor por gentileza");
-            }
+            valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
+            txtResultado.Text = "";
+            operacao = "MULT";
+            lblOperacao.Text = "X";
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            if (txtResultado.Text != "")
-            {
-                valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
-                txtResultado.Text = "";
-                operacao = "DIVI";
-                lblOperacao.Text = "/";
-            }
-            else
-            {
-                MessageBox.Show("Informe um valor por gentileza");
-            }
+            valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
+            txtResultado.Text = "";
+            operacao = "DIVI";
+            lblOperacao.Text = "/";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (txtResultado.Text != "")
+            if(txtResultado.Text != "" )
             {
                 valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
                 txtResultado.Text = "";
@@ -155,12 +129,6 @@ namespace AtividadeCalculadora
             lblOperacao.Text = "";
         }
 
-        private void button19_Click(object sender, EventArgs e)
-        {
-            txtResultado.Text = txtResultado.Text + "0";
-        }
-
-        
         private void button11_Click(object sender, EventArgs e)
         {
             valor2 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
@@ -169,12 +137,10 @@ namespace AtividadeCalculadora
             {
                 txtResultado.Text = Convert.ToString(valor1 + valor2);
 
-            }
-            else if (operacao == "SUB")
+            } else if(operacao == "SUB")
             {
                 txtResultado.Text = Convert.ToString(valor1 - valor2);
-            }
-            else if (operacao == "MULT")
+            } else if (operacao == "MULT")
             {
                 txtResultado.Text = Convert.ToString(valor1 * valor2);
             }
@@ -185,7 +151,7 @@ namespace AtividadeCalculadora
         }
     }
 
-
-
+    
+    
 }
 

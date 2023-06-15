@@ -1,7 +1,7 @@
 ﻿
 namespace AtividadeCalculadora
 {
-    partial class Nathan
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -247,14 +247,12 @@ namespace AtividadeCalculadora
             this.button19.TabIndex = 18;
             this.button19.Text = "0";
             this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(439, 340);
+            this.ClientSize = new System.Drawing.Size(439, 334);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button19);
