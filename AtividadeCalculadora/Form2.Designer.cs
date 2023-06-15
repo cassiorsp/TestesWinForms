@@ -107,6 +107,7 @@ namespace AtividadeCalculadora
             this.button4.TabIndex = 5;
             this.button4.Text = "+";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -116,6 +117,7 @@ namespace AtividadeCalculadora
             this.button5.TabIndex = 6;
             this.button5.Text = "CE";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -125,6 +127,7 @@ namespace AtividadeCalculadora
             this.button6.TabIndex = 11;
             this.button6.Text = "C";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -134,6 +137,7 @@ namespace AtividadeCalculadora
             this.button7.TabIndex = 10;
             this.button7.Text = "-";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -183,6 +187,7 @@ namespace AtividadeCalculadora
             this.button12.TabIndex = 15;
             this.button12.Text = "x";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -222,6 +227,7 @@ namespace AtividadeCalculadora
             this.button17.TabIndex = 20;
             this.button17.Text = "/";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 

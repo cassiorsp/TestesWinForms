@@ -1,5 +1,5 @@
 ﻿
-namespace Teste01
+namespace AtividadeCalculadora
 {
     partial class Form1
     {

@@ -7,16 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MetroFramework;
-using MetroFramework.Controls;
 
 namespace AtividadeCalculadora
 {
-    public partial class Form1 : MetroFramework.Forms.MetroForm
+    public partial class felipenathanForm2 : Form
     {
-        public Form1()
+        public felipenathanForm2()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
